@@ -53,7 +53,7 @@ Observations on the effectiveness of different kernels in Kernel PCA on segmenta
 
 
 ## Github Repository Contents
- - Jupyter Notebook (Customer-Segmentation-w-PCA-and-KMeans.ipynb): Jupyter Notebook for completing the Analysis
- - Data Folder (/Data): Contains the datasets used in the project.
- - HTML Visual (Demo.html): Cluster Analysis HTML created with Plotly
+ - **Jupyter Notebook** (Customer-Segmentation-w-PCA-and-KMeans.ipynb): Jupyter Notebook for completing the Analysis
+ - **Data Folder** (/Data): Contains the datasets used in the project.
+ - **HTML Visual** (Demo.html): Cluster Analysis HTML created with Plotly
 
