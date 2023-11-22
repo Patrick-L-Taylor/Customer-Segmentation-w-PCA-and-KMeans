@@ -14,37 +14,37 @@ Visualize and interpret the segmented customer groups.
 
 ## Methodology
 
-### Data Preprocessing:
+#### Data Preprocessing:
 
-Data is loaded from 'Wholesale customers data.csv'.
-Renaming columns for clarity, e.g., 'Delicassen' to 'Delicatessen'.
-Mapping numerical categories to descriptive labels in 'Channel' and 'Region'.
-Data exploration using value_counts() and describe().
+ - Data is loaded from 'Wholesale customers data.csv'.
+ - Renaming columns for clarity, e.g., 'Delicassen' to 'Delicatessen'.
+ - Mapping numerical categories to descriptive labels in 'Channel' and 'Region'.
+ - Data exploration using value_counts() and describe().
 
-### Exploratory Data Analysis:
+#### Exploratory Data Analysis:
 
-Utilizing Matplotlib and Seaborn for data visualization.
-Generating histograms and bar charts for each feature to understand distributions.
-Creating pair plots to observe relationships between different features.
+ - Utilizing Matplotlib and Seaborn for data visualization.
+ - Generating histograms and bar charts for each feature to understand distributions.
+ - Creating pair plots to observe relationships between different features.
 
-### Dimensionality Reduction:
+#### Dimensionality Reduction:
 
-Standardizing the data with StandardScaler.
-Applying PCA to reduce dimensions to two principal components.
-Exploring Kernel PCA with different kernels (RBF, Polynomial, Cosine) for further dimensionality reduction.
+ - Standardizing the data with StandardScaler.
+ - Applying PCA to reduce dimensions to two principal components.
+ - Exploring Kernel PCA with different kernels (RBF, Polynomial, Cosine) for further dimensionality reduction.
 
-### Customer Segmentation with KMeans:
+#### Customer Segmentation with KMeans:
 
-Implementing KMeans clustering on the reduced datasets.
-Determining the optimal number of clusters using the Elbow method with KElbowVisualizer.
-Visualizing the clusters in the reduced feature space.
+ - Implementing KMeans clustering on the reduced datasets.
+ - Determining the optimal number of clusters using the Elbow method with KElbowVisualizer.
+ - Visualizing the clusters in the reduced feature space.
 
-### Cluster Analysis and Visualization:
+#### Cluster Analysis and Visualization:
 
-Assigning cluster labels back to the original DataFrame.
-Grouping data by cluster labels to find average values for each feature.
-Utilizing Plotly for interactive visualization of the clusters in a radar plot format.
-Saving the interactive plot as 'Demo.html' for easy sharing and presentation.
+ - Assigning cluster labels back to the original DataFrame.
+ - Grouping data by cluster labels to find average values for each feature.
+ - Utilizing Plotly for interactive visualization of the clusters in a radar plot format.
+ - Saving the interactive plot as 'Demo.html' for easy sharing and presentation.
 
 ## Key Findings
 Insights into customer behaviors and preferences based on clustering results.
